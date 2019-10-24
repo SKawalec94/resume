@@ -17,6 +17,9 @@
                 <h1>Szymon Kawalec</h1>
             </div>
         </div>
+        <div class="block">
+            2
+        </div>
     </div>
 </div>
 <div class="page">
