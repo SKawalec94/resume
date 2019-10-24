@@ -47,14 +47,6 @@ body {
         page-break-after: always;
     }
 }
-/*
-@media print {
-    .item {
-        -webkit-filter: drop-shadow(4px 4px 1px #ccc);
-        text-shadow: 4px 4px 1px #ccc;
-    }
-}
-*/
 h1 {
     text-align: center;
 }
@@ -63,7 +55,7 @@ h1 {
     padding: 2%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.block > img {
+.photo > img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
