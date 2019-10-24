@@ -1,3 +1,10 @@
+@media print {
+    .item {
+        -webkit-filter: drop-shadow(4px 4px 1px #ccc);
+        text-shadow: 4px 4px 1px #ccc;
+    }
+}
+
 h1 {
     text-align: center;
 }
