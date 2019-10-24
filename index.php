@@ -16,7 +16,9 @@
         <div class="col-md-8">
             <h1>Hello World!</h1>
             <div class="block">
-                <img src="Moje%20zdjęcie.png" alt="Szymon Kawalec">
+                <div class="photo">
+                    <img src="Moje%20zdjęcie.png" alt="Szymon Kawalec">
+                </div>
             </div>
         </div>
         <div class="col-md-2"></div>
