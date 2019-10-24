@@ -9,7 +9,7 @@
 <body>
 <div class="page">
     <div class="subpage">
-        <div class="block">
+        <div class="block title">
             <div class="photo">
                 <img src="Moje%20zdjęcie.png" alt="Szymon Kawalec">
             </div>
