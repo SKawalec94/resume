@@ -18,7 +18,12 @@
             </div>
         </div>
         <div class="block">
-            2
+            <h2>O mnie</h2>
+            <p>pitu pitu</p>
+        </div>
+        <div class="block">
+            <h2>Umiejętności</h2>
+            <p>niu</p>
         </div>
     </div>
 </div>
