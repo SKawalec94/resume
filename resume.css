@@ -50,6 +50,7 @@ body {
 h1 {
     text-align: center;
     margin: 3mm;
+    color: white;
     text-transform: uppercase;
     font-size: 2.2rem;
 }
@@ -67,7 +68,7 @@ p {
 }
 .title {
     margin: -20mm -20mm 15mm;
-    background-color: lightblue;
+    background-color: #1c4695;
 }
 .photo > img {
     width: 200px;
