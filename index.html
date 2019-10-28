@@ -18,7 +18,6 @@
             </div>
             <div class="name">
                 <h1>Szymon Kawalec</h1>
-                <hr>
             </div>
             <div class="contact">
                 <div id="bday">
@@ -53,8 +52,7 @@
             </p>
         </div>
         <div class="block">
-            <h2>Edukacja</h2>
-            <hr>
+            <h2><i id="education" class="fas fa-graduation-cap fa-2x"></i>Edukacja</h2>
             <div class="row">
                 <div class="column1">
                     <p>10.2016 - 10.2019</p>
@@ -75,7 +73,8 @@
             </div>
         </div>
         <div class="block">
-            <h2>Umiejętności</h2>
+            <h2><i id="skills" class="fas fa-code fa-2x"></i>Umiejętności</h2>
+
             <p>Narzędzia IT:</p>
             <ul>
                 <li>JavaScript (średnio-zaawansowany)</li>
@@ -103,21 +102,20 @@
     $(document).ready(function () {
         let width = screen.width;
         let body = $("body");
+
+        $("h1, h2").after("<hr>");
+
         if(width <= 350){
             body.css("font-size","78%");
-            console.log(width);
         }
         else if(width < 410 && width > 350){
             body.css("font-size","83%");
-            console.log(width);
         }
         else if(width < 500 && width >= 410){
             body.css("font-size","93%");
-            console.log(width);
         }
         else if(width >= 500){
             body.css("font-size","100%");
-            console.log(width);
         }
     });
 </script>
