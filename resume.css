@@ -155,3 +155,6 @@ ul {
 .contact a, .contact i {
     color: white !important;
 }
+.courses .row {
+    display: flex;
+}
