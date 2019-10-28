@@ -20,11 +20,13 @@ body {
     border-radius: 5px;
     background: white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 .subpage {
     /*padding: 1cm;*/
     /*border: 5px red solid;*/
     height: 257mm;
+    position: relative;
     /*outline: 2cm #FFEAEA solid;*/
 }
 
@@ -70,17 +72,29 @@ a {
     text-decoration: none;
 }
 ul {
-    margin: auto;
+    margin: auto auto auto -3mm;
+}
+.row {
+    margin-left: 6mm;
 }
 .block {
     padding: 2%;
-    margin-bottom: 10mm;
+    margin-bottom: 6mm;
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .title {
     margin: -20mm -20mm 10mm;
     background-color: #1c4695;
+}
+.footer {
+    margin: -20mm -20mm -20mm;
+    padding: 2%;
+    color: white;
+    background-color: #1c4695;
+    position: absolute;
+    bottom: 0;
+    text-align: justify;
 }
 .photo > img {
     width: 200px;
@@ -103,11 +117,14 @@ ul {
     padding-left: 8mm;
     columns: 2;
 }
-.contact a, .contact i {
-    color: white;
-}
 .contact i {
     margin-right: 1mm;
+}
+#photo-links i {
+    margin: inherit;
+}
+#photo-links p {
+    display: inline-block;
 }
 .contact > div {
     display: block;
@@ -118,11 +135,11 @@ ul {
 }
 .row > .column1 {
     float: left;
-    width: 25%;
+    width: 20%;
 }
 .row > .column2 {
     float: right;
-    width: 75%;
+    width: 80%;
 }
 .column2 > li {
     padding-left: 3mm;
@@ -130,4 +147,11 @@ ul {
 #education, #skills {
     transform: rotate(-12deg);
     float: left;
+    margin-right: 3mm;
+}
+.block a, .block a:visited, .block a:hover, .block a:active {
+    color: #1c4695;
+}
+.contact a, .contact i {
+    color: white !important;
 }
