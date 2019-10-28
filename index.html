@@ -99,4 +99,26 @@
 </div>
 
 </body>
+<script>
+    $(document).ready(function () {
+        let width = screen.width;
+        let body = $("body");
+        if(width <= 350){
+            body.css("font-size","78%");
+            console.log(width);
+        }
+        else if(width < 410 && width > 350){
+            body.css("font-size","83%");
+            console.log(width);
+        }
+        else if(width < 500 && width >= 410){
+            body.css("font-size","93%");
+            console.log(width);
+        }
+        else if(width >= 500){
+            body.css("font-size","100%");
+            console.log(width);
+        }
+    });
+</script>
 </html>
