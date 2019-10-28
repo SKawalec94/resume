@@ -4,7 +4,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #FAFAFA;
-    font: 12pt "Tahoma";
+    font-family: 'Abel', serif;
+    /*font: 12pt "Tahoma";*/
 }
 * {
     box-sizing: border-box;
@@ -49,16 +50,24 @@ body {
 }
 h1 {
     text-align: center;
-    margin: 3mm;
+    margin: 0;
     color: white;
     text-transform: uppercase;
     font-size: 2.2rem;
 }
 h2 {
-    margin: 2mm;
+    margin: 0;
+    text-align: center;
+}
+hr {
+    margin-top: 2mm;
+    margin-bottom: 4mm;
 }
 p {
     margin: 2mm;
+}
+a {
+    text-decoration: none;
 }
 .block {
     padding: 2%;
@@ -78,9 +87,40 @@ p {
 }
 .photo {
     float: left;
-    margin: 15px 15px 15px 30px;
+    margin-left: 4mm;
+    margin-right: 4mm;
+    width: 54mm;
 }
 .name {
     float: right;
-    margin-right: 20mm;
+    width: 135mm;
+}
+.contact {
+    width: 135mm;
+    padding-left: 8mm;
+    columns: 2;
+}
+.contact a, .contact i {
+    color: white;
+}
+.contact i {
+    margin-right: 1mm;
+}
+.contact > div {
+    display: block;
+    margin-bottom: 6mm;
+}
+.block:not(.title) {
+    text-align: justify;
+}
+.row > .column1 {
+    float: left;
+    width: 25%;
+}
+.row > .column2 {
+    float: right;
+    width: 75%;
+}
+.column2 > li {
+    padding-left: 3mm;
 }
