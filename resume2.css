@@ -3,7 +3,7 @@ html, body{
     height: 100vh;
     margin: 0;
     overflow-y: hidden;
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 body{
     background-image: linear-gradient(to bottom right, dodgerblue, lightskyblue);
@@ -30,13 +30,13 @@ body{
     margin-top: 10vh;
 }
 #name > h1{
-    color: white;
+    color: #e2edff;
     margin-top: 20vh;
     margin-bottom: 15px;
     font-size: 4rem;
 }
 #name > h2{
-    color: lightgray;
+    color: #98c8f1;
     margin-top: 0;
     font-size: 2rem;
 }
