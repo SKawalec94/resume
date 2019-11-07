@@ -23,8 +23,10 @@ body{
 .navigation{
     position: absolute;
     left: 0;
+    bottom: 50%;
     margin: 0;
     width: 55px;
+    height: fit-content;
     padding: 7px;
     background: white;
     color: black;
