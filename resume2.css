@@ -1,18 +1,39 @@
 html, body{
     width: 100vw;
     height: 100vh;
+    margin: 0;
+    font-family: Impact, Charcoal, sans-serif;
 }
 body{
     background-image: linear-gradient(to bottom right, dodgerblue, lightskyblue);
+    background-repeat: no-repeat;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 .top{
     width: 100%;
     margin: auto;
     text-align: center;
 }
-.top > h1{
-    color: white;
+#name{
+    margin-top: 10vh;
 }
-.top > h2{
+#name > h1{
+    color: white;
+    margin-top: 20vh;
+    margin-bottom: 15px;
+}
+#name > h2{
     color: lightgray;
+    margin-top: 0;
 }
