@@ -1,5 +1,6 @@
 html, body{
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 body{
     background-image: linear-gradient(to bottom right, dodgerblue, lightskyblue);
@@ -9,6 +10,9 @@ body{
     margin: auto;
     text-align: center;
 }
+.top > h1{
+    color: white;
+}
 .top > h2{
-    color: grey;
+    color: lightgray;
 }
