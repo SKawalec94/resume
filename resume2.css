@@ -1,9 +1,11 @@
+*{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
 html, body{
     width: 100vw;
     height: 100vh;
     margin: 0;
     overflow-x: hidden;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 body{
 
@@ -57,7 +59,42 @@ body{
     font-size: 2rem;
 }
 .aboutMe{
-    width: 100%;
+    display: block;
+    position: relative;
+    top: -10vh;
+    background-color: white;
+    width: 50%;
+    padding: 24px;
+    margin: auto auto 15vh;
     text-align: justify;
-    margin-top: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.aboutMe > img{
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.aboutMe > h2{
+    text-align: center;
+}
+@keyframes scroll {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(60px);
+    }
+}
+svg #wheel {
+    animation: scroll ease 2s infinite;
+}
+#scrollIcon{
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    right: 50%;
 }
