@@ -21,6 +21,16 @@ body{
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+.navigation{
+    position: absolute;
+    left: 0;
+    margin: 0;
+    width: 30px;
+    background: white;
+    color: black;
+    text-align: center;
+    z-index: 999;
+}
 .top{
     width: 100%;
     margin: auto;
@@ -33,7 +43,7 @@ body{
     color: #e2edff;
     margin-top: 20vh;
     margin-bottom: 15px;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 #name > h2{
     color: #98c8f1;
