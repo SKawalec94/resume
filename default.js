@@ -8,5 +8,5 @@ $(document).ready(function () {
         .animate({ opacity: 1 }, { duration: 800, queue: false });
 
     let vh = $(window).innerHeight * 0.01;
-    $(document).css('--vh', '${vh}px');
+    $(document).css('--vh', vh+'px');
 });
