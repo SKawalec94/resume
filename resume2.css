@@ -50,3 +50,8 @@ body{
     margin-top: 0;
     font-size: 2rem;
 }
+.aboutMe{
+    width: 100%;
+    text-align: justify;
+    margin-top: 100vh;
+}
