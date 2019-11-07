@@ -3,7 +3,7 @@
 }
 html, body{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     overflow-x: hidden;
 }
@@ -51,11 +51,15 @@ body{
 #name > h1{
     color: #e2edff;
     margin: 0;
-    font-size: 5rem;
 }
 #name > h2{
     color: #98c8f1;
     margin: 0;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
     font-size: 2rem;
 }
 .aboutMe{
@@ -67,7 +71,7 @@ body{
     padding: 24px;
     margin: auto auto 15vh;
     text-align: justify;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .aboutMe > img{
     margin: auto;
@@ -76,7 +80,7 @@ body{
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .aboutMe > h2{
     text-align: center;
@@ -97,4 +101,8 @@ svg #wheel {
     bottom: 25%;
     left: 50%;
     right: 50%;
+}
+#scrollSvg{
+    width: 40px;
+    height: 100%;
 }
