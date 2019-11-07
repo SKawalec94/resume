@@ -7,6 +7,7 @@ $(document).ready(function () {
         .animate({ left: 0}, { duration: 800, queue: false })
         .animate({ opacity: 1 }, { duration: 800, queue: false });
 
-    let vh = $(window).innerHeight * 0.01;
-    $(document).css('--vh', vh+'px');
+    if(/Mobi|Android/i.test(navigator.userAgent)) {
+        $('.top').css('padding-top', '15vh');
+    }
 });
