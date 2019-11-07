@@ -1,0 +1,14 @@
+html, body{
+    width: 100%;
+}
+body{
+    background-image: linear-gradient(to bottom right, dodgerblue, lightskyblue);
+}
+.top{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.top > h2{
+    color: grey;
+}
