@@ -32,8 +32,10 @@ body{
     color: white;
     margin-top: 20vh;
     margin-bottom: 15px;
+    font-size: 4rem;
 }
 #name > h2{
     color: lightgray;
     margin-top: 0;
+    font-size: 2rem;
 }
