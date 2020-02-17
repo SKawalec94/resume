@@ -162,3 +162,6 @@ ul {
 #3d-links {
     text-align: center;
 }
+#photo-links p {
+    transform: translateX(50%);
+}
