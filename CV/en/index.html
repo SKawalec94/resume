@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Resume</title>
@@ -7,7 +7,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="resume.css">
     <script src="https://kit.fontawesome.com/0f519229d6.js" crossorigin="anonymous"></script>
-    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Alata&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div class="page">
@@ -47,7 +47,7 @@
             </div>
         </div>
         <div class="block">
-            <p>I graduated in Computer Science with specialty Multimedia and Internet Technologies at Pedagogical University of Cracow. I am designing and creating JavaScript (jQuery), PHP and MySQL web applications. Currently I'm learning Angular, ReactJS and Node.js frameworks.
+            <p>I graduated in Computer Science with specialty Multimedia and Internet Technologies at Pedagogical University of Cracow. I am photographer who also designs and creates graphics and JavaScript, PHP and MySQL web applications.
             </p>
         </div>
         <div class="block">
@@ -64,37 +64,37 @@
                     <p>My thesis was creation of e-store web application with JavaScript and PHP programming languages (<a href="https://aleciacho.herokuapp.com/">aleciacho.herokuapp.com</a>).</p>
                     <p>During studies, from 12.2017 to 06.2018 I was Chairmen of Student Council for Promotion.<br>
                         <ul>
-                            <li>with PHP scripts of my own creation I had been improving and managing Student Council's web page,</li>
-                            <li>I have been creating photos and graphics using Adobe software,</li>
+                            <li>I was managing Student Council's web page which I also improved with PHP scripts of my own creation,</li>
+                            <li>At most of University events I have been taking photos and created graphics using Adobe software,</li>
                             <li>I improved office' network infrastructure.</li>
                         </ul>
                     </p>
                 </div>
             </div>
         </div>
-        <div class="block">
-            <h2><i id="skills" class="fas fa-code fa-2x"></i>Skills</h2>
-            <div class="row">
-                <p><strong>IT tools:</strong></p>
-                <ul>
-                    <li>JavaScript (intermediate)</li>
-                    <li>MySQL (intermediate)</li>
-                    <li>PHP (intermediate)</li>
-                    <li>C, C++, C#, Java, Python, .NET (elementary)</li>
-                </ul>
-            </div>
-        </div>
+
     </div>
 </div>
 <div class="page">
     <div class="subpage">
         <div class="block">
+            <h2><i id="skills" class="fas fa-code fa-2x"></i>Skills</h2>
+            <div class="row">
+                <p><strong>IT tools:</strong></p>
+                <ul>
+                    <li>JavaScript (jQuery), MySQL, PHP - intermediate</li>
+                    <li>C, C++, C#, Java, Python, .NET - elementary</li>
+                    <li>Adobe Photoshop, Adobe Illustrator, Gimp, CorelDRAW - intermediate</li>
+                    <li>Autodesk Inventor, Autodesk 3ds Max, SketchUp - elementary</li>
+                </ul>
+            </div>
+        </div>
+        <div class="block">
             <div class="row">
                 <p><strong>IT skills:</strong></p>
                 <ul>
-                    <li>SVN</li>
                     <li>Git (GitHub, Heroku)</li>
-                    <li>Unit testing</li>
+                    <li>Photo editing and graphics creation</li>
                 </ul>
                 <p><strong>Languages:</strong></p>
                 <ul>
@@ -102,6 +102,7 @@
                 </ul>
             </div>
         </div>
+        <!--
         <div class="block courses">
             <h2><i id="courses" class="fas fa-laptop-code fa-2x"></i>Courses</h2>
             <div class="row">
@@ -150,9 +151,10 @@
                 </div>
             </div>
         </div>
+        -->
         <div class="block interests">
             <h2><i id="interests" class="far fa-lightbulb fa-2x"></i>Hobbys</h2>
-            <p>At my free time I mostly deal with photography which is my greatest passion. I have created my own website and social media profiles with my photos. Thanks to my hobby I was able to learn Adobe Photoshop at an advanced level.</p>
+            <p>At my free time I mostly deal with photography which is my greatest passion. I have social media profiles with my photos listed below. Thanks to my hobby I was able to learn photography and master Adobe Photoshop at an advanced level.</p>
             <div id="photo-links">
                 <p><i class="fab fa-facebook fa-lg"></i><a href="https://www.facebook.com/fotokawalec/">facebook.com/fotokawalec</a></p>
                 <p><i class="fab fa-instagram fa-lg"></i><a href="https://www.instagram.com/fotokawalec/">instagram.com/fotokawalec</a></p>
@@ -177,16 +179,16 @@
         $("h1, h2").after("<hr>");
 
         if(width <= 350){
-            body.css("font-size","78%");
+            body.css("font-size","68%");
         }
         else if(width < 410 && width > 350){
-            body.css("font-size","83%");
+            body.css("font-size","73%");
         }
         else if(width < 500 && width >= 410){
-            body.css("font-size","93%");
+            body.css("font-size","83%");
         }
         else if(width >= 500){
-            body.css("font-size","100%");
+            body.css("font-size","90%");
         }
     });
 </script>
